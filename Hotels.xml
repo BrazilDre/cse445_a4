@@ -1,4 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotels>
-    <!-- We'll fill this in next -->
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://brazildre.github.io/cse445_a4/Hotels.xsd">
+    
+    <!-- Hotel 1: Sample hotel from assignment (with Rating and multiple phones) -->
+    <Hotel Rating="4.2">
+        <Name>Westin</Name>
+        <Phone>480-968-8885</Phone>
+        <Phone>800-937-8461</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>11</Number>
+            <Street>E 7th St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+    
+    <!-- Hotel 2: Marriott (with Rating, single phone) -->
+    <Hotel Rating="4.5">
+        <Name>Phoenix Marriott Tempe at The Buttes</Name>
+        <Phone>602-225-9000</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>2000</Number>
+            <Street>W Westcourt Way</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85282</Zip>
+        </Address>
+    </Hotel>
+    
+    <!-- Hotel 3: Hampton Inn (NO Rating, single phone) -->
+    <Hotel>
+        <Name>Hampton Inn Phoenix-Biltmore</Name>
+        <Phone>602-957-5757</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>2310</Number>
+            <Street>E Highland Ave</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85016</Zip>
+        </Address>
+    </Hotel>
+    
+    <!-- Hotel 4: Hilton (with Rating, multiple phones) -->
+    <Hotel Rating="4.3">
+        <Name>Hilton Phoenix Resort at the Peak</Name>
+        <Phone>602-997-2626</Phone>
+        <Phone>800-445-8667</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>7677</Number>
+            <Street>N 16th St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85020</Zip>
+        </Address>
+    </Hotel>
+    
+    <!-- Hotel 5: Hyatt (NO Rating, single phone) -->
+    <Hotel>
+        <Name>Hyatt Regency Phoenix</Name>
+        <Phone>602-252-1234</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>122</Number>
+            <Street>N 2nd St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85004</Zip>
+        </Address>
+    </Hotel>
+    
+    <!-- Hotel 6: Sheraton (with Rating, multiple phones) -->
+    <Hotel Rating="4.0">
+        <Name>Sheraton Grand Phoenix</Name>
+        <Phone>602-262-2500</Phone>
+        <Phone>888-627-7175</Phone>
+        <Phone>602-340-5000</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>340</Number>
+            <Street>N 3rd St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85004</Zip>
+        </Address>
+    </Hotel>
+    
+    <!-- Hotel 7: Embassy Suites (NO Rating, single phone) -->
+    <Hotel>
+        <Name>Embassy Suites by Hilton Phoenix Scottsdale</Name>
+        <Phone>480-949-1414</Phone>
+        <Address NearestAirport="Scottsdale Airport">
+            <Number>5001</Number>
+            <Street>N Scottsdale Rd</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85250</Zip>
+        </Address>
+    </Hotel>
+    
+    <!-- Hotel 8: Holiday Inn (with Rating, multiple phones) -->
+    <Hotel Rating="3.8">
+        <Name>Holiday Inn Express Phoenix Downtown</Name>
+        <Phone>602-452-2700</Phone>
+        <Phone>877-859-5095</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>620</Number>
+            <Street>N 6th St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85004</Zip>
+        </Address>
+    </Hotel>
+    
+    <!-- Hotel 9: Courtyard (with Rating, single phone) -->
+    <Hotel Rating="4.1">
+        <Name>Courtyard Phoenix Downtown</Name>
+        <Phone>602-495-6100</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>132</Number>
+            <Street>S Central Ave</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85004</Zip>
+        </Address>
+    </Hotel>
+    
+    <!-- Hotel 10: Renaissance (NO Rating, multiple phones) -->
+    <Hotel>
+        <Name>Renaissance Phoenix Downtown Hotel</Name>
+        <Phone>602-333-0000</Phone>
+        <Phone>800-228-9290</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>50</Number>
+            <Street>E Adams St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85004</Zip>
+        </Address>
+    </Hotel>
+    
+    <!-- Hotel 11: JW Marriott (with Rating, single phone) -->
+    <Hotel Rating="4.6">
+        <Name>JW Marriott Phoenix Desert Ridge Resort</Name>
+        <Phone>480-293-5000</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>5350</Number>
+            <Street>E Marriott Dr</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85054</Zip>
+        </Address>
+    </Hotel>
+
 </Hotels>
